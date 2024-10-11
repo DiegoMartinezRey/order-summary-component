@@ -25,5 +25,148 @@ img {
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: #e0e8ff;
+}
+
+p,
+h2,
+h3 {
+  margin: 0;
+}
+
+.page {
+  padding: 71px 24px;
+}
+
+.container {
+  width: 327px;
+  height: 567px;
+  margin: auto;
+  box-shadow: 0 40px 40px -20px rgba(13, 48, 189, 0.1518);
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+@media screen and (width > 768px) {
+  .container {
+    width: 450px;
+    height: 697px;
+  }
+}
+
+.cover {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+}
+
+.content-container {
+  height: 407px;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (width > 768px) {
+  .content-container {
+    height: 477px;
+    padding: 45px 48px;
+  }
+}
+
+.text {
+  text-align: center;
+}
+.title {
+  font-size: 22px;
+  font-weight: 900;
+}
+@media screen and (width > 768px) {
+  .title {
+    font-size: 28px;
+  }
+}
+.description {
+  font-size: 15px;
+  color: #717fa6;
+  line-height: 25px;
+  font-weight: 500;
+}
+@media screen and (width > 768px) {
+  .description {
+    width: 293px;
+    font-size: 16px;
+  }
+}
+
+.plan-container {
+  width: 100%;
+  background-color: #f7f9ff;
+  border-radius: 11px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-plan-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bg-music {
+  background-color: #dfe6fb;
+  border-radius: 50%;
+}
+
+.plan-text-container {
+  margin-left: 20px;
+}
+.plan-text {
+  font-size: 14px;
+  font-weight: 900;
+}
+.price-text {
+  font-size: 14px;
+  color: #717fa6;
+  font-weight: 500;
+}
+
+.change {
+  color: rgba(56, 42, 225, 1);
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+@media (hover: hover) {
+  .change:hover {
+    color: #766cf1;
+    text-decoration: none;
+  }
+}
+
+.pay-button {
+  color: #ffffff;
+  padding: 15px 64px;
+  background-color: #382ae1;
+  border-radius: 11px;
+  font-weight: 900;
+  box-shadow: 0 20px 20px 0 rgba(56, 42, 225, 0.1903);
+}
+@media (hover: hover) {
+  .pay-button:hover {
+    background-color: #766cf1;
+  }
+}
+
+.cancel {
+  color: #717fa6;
+  font-size: 15px;
+  font-weight: 900;
+}
+@media (hover: hover) {
+  .cancel:hover {
+    color: #1f2e55;
+  }
 }
